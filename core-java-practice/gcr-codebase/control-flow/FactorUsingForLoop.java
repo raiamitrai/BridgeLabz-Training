@@ -5,7 +5,7 @@
 
 package controlflow;
 
-    import java.util.Scanner;
+import java.util.Scanner;
 
 public class FactorUsingForLoop {
         public static void main(String[] args) {
@@ -22,4 +22,4 @@ public class FactorUsingForLoop {
             }
         }
     }
-}
+
