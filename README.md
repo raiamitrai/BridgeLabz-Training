@@ -5,10 +5,9 @@
 
 
 # Week 01 – Core Programming
-## 🗓 Day 1 – Java Programming Elements
+## Day 1 – Java Programming Elements
 **Topics Covered:** Java Comments, Java Basic Data Types, Java Variables, Arithmetic Operators, Operator Precedence, Type Conversion, Taking User Input in Programs  Practice Questions
-
-**Practice Questions**
+###Practice Questions
 - Age Calculation
 - Average Marks (PCM)
 - Kilometers to Miles (Fixed Value)
@@ -28,7 +27,7 @@
 - Quotient and Remainder of Two Numbers
 - Integer Operations (Operator Precedence)
 - Double Operations (Operator Precedence)
-## 🗓 Day 02 – Java Control Flows
+## Day 02 – Java Control Flows
 **Topics Covered:** Java Control Flow Statements, Java Boolean Data Type, Boolean Expressions, Logical Operators, If Statement, If–Else If–Else Statements, Java Loops (for, while), Break and Continue Statements, Switch Statement
 ### Level 1 Practice Programs
 - Check if a Number is Divisible by 5
@@ -61,7 +60,7 @@
 - Find Power of a Number Using For Loop
 - Find All Multiples of a Number Below 100 (While Loop)
 - Find Power of a Number Using While Loop
-🗓 Day 03 – Java Arrays
+## Day 03 – Java Arrays
 Topics Covered: Java Arrays, Creating an Array, Accessing an Array, Accessing Array Using for Loop, Modifying an Array, Using length Property of Array, Multi-Dimensional Arrays, 2D Array (Matrix), Accessing & Finding Size of Multi-Dimensional Array, Using System.err() Message and exit() Method
 Level 1 Practice Programs
 •	Voting Eligibility Check for 10 Students Using Array
