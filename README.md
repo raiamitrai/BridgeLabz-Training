@@ -167,221 +167,312 @@
 
 ---
 
-Week 02 –  Object-Oriented Programming
-Day 01 – Class and object
-Topics Covered: Classes, Objects, Attributes, Constructors, Methods, Real-World Modeling
-Practice Questions (Implemented)
-•  Display Employee Details Using Class & Object
-• Compute Area and Circumference of a Circle
-• Simulate Student Report (Marks & Grade Calculation)
-• Simulate Bank Account (Deposit, Withdraw, Balance Check)
-• Check Whether a String is Palindrome Using Class
-• Model a Movie Ticket Booking System
-• Simulate a Shopping Cart System
-• Track Inventory of Items
-• Model Mobile Phone Details Using Class
-Day 02 – Constructors
-Topics Covered: Default Constructor, Parameterized Constructor, Constructor Chaining, Copy Constructor, Real-World Object Modeling
-Practice Questions (Implemented)
-• Create a Book Class with Default and Parameterized Constructors
-• Implement Constructor Chaining in Circle Class
-• Create a Person Class Using Copy Constructor
-• Hotel Booking System Using Default, Parameterized and Copy Constructors
-• Library Book System with Borrow Book Functionality
-• Car Rental System with Cost Calculation Using Constructors
-Day 03 -  Static,this, final & instanceof
-Topics Covered:
-Static Variables & Methods, this Keyword, final Keyword, instanceof Operator, Best Programming Practices, Real-World System Design
-Practice Programs (Implemented):
-•	Bank Account System (static, this, final, instanceof)
-•	Library Management System
-•	Employee Management System
-•	Shopping Cart System
-•	University Student Management System
-•	Vehicle Registration System
-•	Hospital Management System
-Day 04 – Object Modeling
-	Topics Covered:
-•	Classes vs. Objects in Java
-•	Class Diagram
-•	Object Diagrams
-•	Sequence Diagrams
-Day 05 – Inheritance in Java
-Topics Covered:
-Single Inheritance, Multilevel Inheritance, Hierarchical Inheritance, Method Overriding, Real-World Inheritance Design
-Practice Programs (Implemented):
-•	Library Management with Books and Authors (Single Inheritance)
-•	Smart Home Devices System (Single Inheritance)
-•	Online Retail Order Management (Multilevel Inheritance)
-•	Educational Course Hierarchy (Multilevel Inheritance)
-•	Bank Account Types System (Hierarchical Inheritance)
-Day 06 – Abstraction, Interface & Polymorphism
-Topics Covered:
-Abstract Classes, Abstract Methods, Interfaces, Encapsulation, Polymorphism, Dynamic Method Dispatch, Real-World System Design
-Practice Programs (Implemented):
-•	Employee Management System (Abstract Class, Interface, Polymorphism)
-•	E-Commerce Platform (Product Hierarchy, Taxable Interface)
-•	Vehicle Rental System (Abstract Vehicle, Insurance Interface)
-•	Banking System (Abstract BankAccount, Loanable Interface)
-•	Library Management System (Abstract LibraryItem, Reservable Interface)
-Week 03 – Data Structure & Algorithms
-Day 01 – Linked List Data Structures
-Topics Covered:
-Singly Linked List, Doubly Linked List, Circular Linked List, Node Operations, Insertion & Deletion, Searching, Updating Records, Traversal Techniques, Real-World Data Modeling
-Practice Programs (Implemented):
-•	Student Record Management System (Singly Linked List)
-•	Movie Management System (Doubly Linked List)
-•	Task Scheduler System (Circular Linked List)
-•	Inventory Management System (Singly Linked List with Sorting & Total Value)
-•	Library Management System (Doubly Linked List)
-Day 02 -  Stack, Queue & Hashing Problems
-Topics Covered:
-Stack Applications, Queue Implementation, Recursion with Stack, Hashing, HashMap, Array Optimization Problems
-Practice Programs (Implemented):
-•	Queue Implementation Using Two Stacks
-•	Sort a Stack Using Recursion
-•	Stock Span Problem (Using Stack)
-•	Check Pair with Given Sum in an Array (Hash Map)
-•	Two Sum Problem (Hash Map)
-•	Longest Consecutive Sequence in an Array
-•	Custom Hash Map Implementation (Separate Chaining)
-Day 03 - Sorting Algorithms
-Topics Covered:
-Bubble Sort, Insertion Sort, Merge Sort, Comparison-Based Sorting, Divide and Conquer Technique
-Practice Programs (Implemented):
-•	Bubble Sort – Sort Student Marks
-•	Insertion Sort – Sort Employee IDs
-•	Merge Sort – Sort Book Prices
-Day 04 and Day 05 – Linear & Binary Searching
-Topics Covered:
-StringBuilder, StringBuffer, FileReader, InputStreamReader, Linear Search, Binary Search, Performance Comparison
-Practice Programs (Implemented):
-StringBuilder & StringBuffer
-•	Reverse a String Using StringBuilder
-•	Remove Duplicate Characters Using StringBuilder
-•	Concatenate Strings Using StringBuffer
-•	Compare Performance: StringBuilder vs StringBuffer
-Day 06 -  Runtime Analysis & Big-O Notation
-Topics Covered:
-Algorithm Time Complexity, Linear vs Binary Search, Sorting Algorithm Comparison, String Performance Analysis, Big-O Analysis
-Practice & Analysis Programs (Implemented):
-Search Performance Analysis
-•	Linear Search vs Binary Search on Large Datasets
-•	Performance Comparison Based on Dataset Size
-Sorting Algorithm Comparison
-•	Bubble Sort Performance Analysis
-•	Merge Sort Performance Analysis
-•	Quick Sort Performance Analysis
-String Performance Analysis
-•	String vs StringBuilder vs StringBuffer
+# Week 02 –  Object-Oriented Programming
+## Day 01 – Class and Object
 
-Week 04 – Collections
-Day 01 - Java Generics
-Topics Covered:
-Introduction to generics, Generic Classes, Generic Methods, Type Parameters, Bounded Type Parameters, Wildcards
-Practice Programs (Implemented):
-•	Smart Warehouse Management System (Generics, Bounded Types, Wildcards)
-•	Dynamic Online Marketplace (Generic Classes & Methods)
-•	University Course Management System (Generics with Course Types)
-•	Personalized Meal Plan Generator (Generic Methods & Interfaces)
-•	AI-Driven Resume Screening System (Generics, Wildcards & Role Handling)
-Day 02 (Java Collections Framework)
-Topics Covered:
-List Interface, Set Interface, Queue Interface, Map Interface, Collection Operations, Performance Comparison, Real-World System Design
-Practice Programs (Implemented)
-List Interface
-•	Reverse a List (ArrayList & LinkedList without built-in methods)
-•	Find Frequency of Elements in a List
-•	Rotate Elements in a List
-•	Remove Duplicates While Preserving Order
-•	Find Nth Element from End in LinkedList
-Set Interface
-•	Check Equality of Two Sets
-•	Union and Intersection of Sets
-•	Symmetric Difference of Sets
-•	Convert Set to Sorted List
-•	Check Subset Relationship
-•	Insurance Policy Management System (HashSet, LinkedHashSet, TreeSet + Performance Comparison)
-Queue Interface
-•	Reverse a Queue Using Queue Operations
-•	Generate Binary Numbers Using Queue
-•	Hospital Triage System (PriorityQueue)
-•	Implement Stack Using Queues
-•	Circular Buffer Simulation (Fixed-Size Queue)
-Map Interface
-•	Word Frequency Counter Using HashMap
-•	Invert a Map (Handle Duplicate Values)
-•	Find Key with Maximum Value
-•	Merge Two Maps
-•	Group Objects by Property (Department → Employees)
-Real-World Map-Based Systems
-•	Insurance Policy Management System (HashMap, LinkedHashMap, TreeMap)
-•	Voting System Using Map Variants
-•	Shopping Cart System Using Map Variants
-•	Banking System Using Map & Queue
-Day 03 (Java Streams)
-Topics Covered:
-File Handling, Byte Streams, Character Streams, Buffered Streams, Serialization, Data Streams, Piped Streams, Performance Optimization, Exception Handling
-Practice Programs (Implemented)
-•	Read and Write a Text File (FileInputStream & FileOutputStream)
-•	Efficient File Copy Using Buffered Streams (Performance Comparison)
-•	Read User Input from Console and Write to File
-•	Object Serialization & Deserialization (Employee Management)
-•	Convert Image to Byte Array Using ByteArray Streams
-•	Filter Streams: Convert Uppercase to Lowercase Text
-•	Store & Retrieve Primitive Data Using Data Streams
-•	Inter-Thread Communication Using Piped Streams
-•	Read Large File Line by Line (Error Log Filter)
-•	Word Frequency Counter with Top 5 Words
-Day 04 -  Exception Handling 
-Topics Covered:
-Checked Exceptions, Unchecked Exceptions, Custom Exceptions, Multiple Catch Blocks, try-with-resources, throw vs throws, finally Block, Exception Propagation
-Practice Programs (Implemented)
-•	Checked Exception Handling (File Read with IOException)
-•	Unchecked Exceptions Handling (ArithmeticException & InputMismatchException)
-•	Custom Exception Implementation (InvalidAgeException)
-•	Multiple Catch Blocks (Array Operations)
-•	try-with-resources for Auto-Closing Resources
-•	throw vs throws (Exception Propagation Example)
-•	finally Block Execution Demonstration
-•	Exception Propagation Across Methods
-Day 05 - Regex and JUnit
-Topics Covered:
-Regex Basics, Pattern Matching, Validation, Extraction, String Replacement,
-Practice Programs (Implemented)
-Basic Regex Validation
-•	Validate Username (letters, digits, underscore, length & start rule)
-•	Validate License Plate Number
-•	Validate Hex Color Code
-Extraction Using Regex
-•	Extract Email Addresses from Text
-•	Extract Capitalized Words from a Sentence
-•	Extract Dates (dd/mm/yyyy Format)
-•	Extract URLs from Text
-Replace & Modify Strings
-•	Replace Multiple Spaces with a Single Space
-•	Censor Bad Words in a Sentence
-•	Validate IPv4 Address
-Day 06 - Java Reflection and Annotation
-Topics Covered:
-Java Reflection, Class Metadata, Dynamic Object Creation, Private Member Access, Dynamic Method Invocation, Runtime Annotations , Built-in Annotations, @Override, @Deprecated, @SuppressWarnings, Custom Annotations, Repeatable Annotations, Reflection with Annotations
-Practice Problems (Implemented)
-Reflection
-•	Get Class Information (Methods, Fields, Constructors)
-•	Access & Modify Private Field Using Reflection
-•	Invoke Private Method Using Reflection
-•	Dynamically Create Object Without new Keyword
-•	Dynamic Method Invocation Based on User Input
-•	Retrieve Custom Annotations at Runtime Using Reflection
-Annotation
-Practice Exercises (Implemented)
-•	Override Method Using @Override Annotation
-•	Mark Old Method Using @Deprecated
-•	Suppress Unchecked Warnings Using @SuppressWarnings
-•	Create & Use Custom Annotation (@TaskInfo)
-•	Retrieve Custom Annotation Data Using Reflection
-•	Create @ImportantMethod Annotation with Default Value
-•	Apply Custom Annotation to Multiple Methods
-•	Create an Annotation for Logging Method Execution time
+**Topics Covered:**  
+Classes, Objects, Attributes, Constructors, Methods, Real-World Modeling
 
+### Practice Questions (Implemented)
+- Display Employee Details Using Class & Object
+- Compute Area and Circumference of a Circle
+- Simulate Student Report (Marks & Grade Calculation)
+- Simulate Bank Account (Deposit, Withdraw, Balance Check)
+- Check Whether a String is Palindrome Using Class
+- Model a Movie Ticket Booking System
+- Simulate a Shopping Cart System
+- Track Inventory of Items
+- Model Mobile Phone Details Using Class
+
+## Day 02 – Constructors
+
+**Topics Covered:**  
+Default Constructor, Parameterized Constructor, Constructor Chaining, Copy Constructor, Real-World Object Modeling
+
+### Practice Questions (Implemented)
+- Create a Book Class with Default and Parameterized Constructors
+- Implement Constructor Chaining in Circle Class
+- Create a Person Class Using Copy Constructor
+- Hotel Booking System Using Default, Parameterized and Copy Constructors
+- Library Book System with Borrow Book Functionality
+- Car Rental System with Cost Calculation Using Constructors
+
+## Day 03 – Static, this, final & instanceof
+
+**Topics Covered:**  
+Static Variables & Methods, this Keyword, final Keyword, instanceof Operator,  
+Best Programming Practices, Real-World System Design
+
+### Practice Programs (Implemented)
+- Bank Account System (static, this, final, instanceof)
+- Library Management System
+- Employee Management System
+- Shopping Cart System
+- University Student Management System
+- Vehicle Registration System
+- Hospital Management System
+
+## Day 04 – Object Modeling
+
+**Topics Covered:**
+- Classes vs. Objects in Java
+- Class Diagram
+- Object Diagrams
+- Sequence Diagrams
+
+## Day 05 – Inheritance in Java
+
+**Topics Covered:**  
+Single Inheritance, Multilevel Inheritance, Hierarchical Inheritance,  
+Method Overriding, Real-World Inheritance Design
+
+### Practice Programs (Implemented)
+- Library Management with Books and Authors (Single Inheritance)
+- Smart Home Devices System (Single Inheritance)
+- Online Retail Order Management (Multilevel Inheritance)
+- Educational Course Hierarchy (Multilevel Inheritance)
+- Bank Account Types System (Hierarchical Inheritance)
+
+## Day 06 – Abstraction, Interface & Polymorphism
+
+**Topics Covered:**  
+Abstract Classes, Abstract Methods, Interfaces, Encapsulation,  
+Polymorphism, Dynamic Method Dispatch, Real-World System Design
+
+### Practice Programs (Implemented)
+- Employee Management System (Abstract Class, Interface, Polymorphism)
+- E-Commerce Platform (Product Hierarchy, Taxable Interface)
+- Vehicle Rental System (Abstract Vehicle, Insurance Interface)
+- Banking System (Abstract BankAccount, Loanable Interface)
+- Library Management System (Abstract LibraryItem, Reservable Interface)
+
+---
+
+# Week 03 – Data Structure & Algorithms
+
+---
+
+## Day 01 – Linked List Data Structures
+
+**Topics Covered:**  
+Singly Linked List, Doubly Linked List, Circular Linked List,  
+Node Operations, Insertion & Deletion, Searching, Updating Records,  
+Traversal Techniques, Real-World Data Modeling
+
+### Practice Programs (Implemented)
+- Student Record Management System (Singly Linked List)
+- Movie Management System (Doubly Linked List)
+- Task Scheduler System (Circular Linked List)
+- Inventory Management System (Singly Linked List with Sorting & Total Value)
+- Library Management System (Doubly Linked List)
+
+## Day 02 – Stack, Queue & Hashing Problems
+
+**Topics Covered:**  
+Stack Applications, Queue Implementation, Recursion with Stack,  
+Hashing, HashMap, Array Optimization Problems
+
+### Practice Programs (Implemented)
+- Queue Implementation Using Two Stacks
+- Sort a Stack Using Recursion
+- Stock Span Problem (Using Stack)
+- Check Pair with Given Sum in an Array (Hash Map)
+- Two Sum Problem (Hash Map)
+- Longest Consecutive Sequence in an Array
+- Custom Hash Map Implementation (Separate Chaining)
+
+## Day 03 – Sorting Algorithms
+
+**Topics Covered:**  
+Bubble Sort, Insertion Sort, Merge Sort,  
+Comparison-Based Sorting, Divide and Conquer Technique
+
+### Practice Programs (Implemented)
+- Bubble Sort – Sort Student Marks
+- Insertion Sort – Sort Employee IDs
+- Merge Sort – Sort Book Prices
+
+## Day 04 & Day 05 – Linear & Binary Searching
+
+**Topics Covered:**  
+StringBuilder, StringBuffer, FileReader, InputStreamReader,  
+Linear Search, Binary Search, Performance Comparison
+
+### Practice Programs (Implemented)
+
+**StringBuilder & StringBuffer**
+- Reverse a String Using StringBuilder
+- Remove Duplicate Characters Using StringBuilder
+- Concatenate Strings Using StringBuffer
+- Compare Performance: StringBuilder vs StringBuffer
+
+## Day 06 – Runtime Analysis & Big-O Notation
+
+**Topics Covered:**  
+Algorithm Time Complexity, Linear vs Binary Search,  
+Sorting Algorithm Comparison, String Performance Analysis, Big-O Analysis
+
+### Practice & Analysis Programs (Implemented)
+
+**Search Performance Analysis**
+- Linear Search vs Binary Search on Large Datasets
+- Performance Comparison Based on Dataset Size
+
+**Sorting Algorithm Comparison**
+- Bubble Sort Performance Analysis
+- Merge Sort Performance Analysis
+- Quick Sort Performance Analysis
+
+**String Performance Analysis**
+- String vs StringBuilder vs StringBuffer
+
+---
+
+# Week 04 – Collections
+
+## Day 01 – Java Generics
+
+**Topics Covered:**  
+Introduction to Generics, Generic Classes, Generic Methods,  
+Type Parameters, Bounded Type Parameters, Wildcards
+
+### Practice Programs (Implemented)
+- Smart Warehouse Management System (Generics, Bounded Types, Wildcards)
+- Dynamic Online Marketplace (Generic Classes & Methods)
+- University Course Management System (Generics with Course Types)
+- Personalized Meal Plan Generator (Generic Methods & Interfaces)
+- AI-Driven Resume Screening System (Generics, Wildcards & Role Handling)
+
+## Day 02 – Java Collections Framework
+
+**Topics Covered:**  
+List Interface, Set Interface, Queue Interface, Map Interface,  
+Collection Operations, Performance Comparison, Real-World System Design
+
+### Practice Programs (Implemented)
+
+#### List Interface
+- Reverse a List (ArrayList & LinkedList without built-in methods)
+- Find Frequency of Elements in a List
+- Rotate Elements in a List
+- Remove Duplicates While Preserving Order
+- Find Nth Element from End in LinkedList
+
+#### Set Interface
+- Check Equality of Two Sets
+- Union and Intersection of Sets
+- Symmetric Difference of Sets
+- Convert Set to Sorted List
+- Check Subset Relationship
+- Insurance Policy Management System  
+  (HashSet, LinkedHashSet, TreeSet + Performance Comparison)
+
+#### Queue Interface
+- Reverse a Queue Using Queue Operations
+- Generate Binary Numbers Using Queue
+- Hospital Triage System (PriorityQueue)
+- Implement Stack Using Queues
+- Circular Buffer Simulation (Fixed-Size Queue)
+
+#### Map Interface
+- Word Frequency Counter Using HashMap
+- Invert a Map (Handle Duplicate Values)
+- Find Key with Maximum Value
+- Merge Two Maps
+- Group Objects by Property (Department → Employees)
+
+#### Real-World Map-Based Systems
+- Insurance Policy Management System (HashMap, LinkedHashMap, TreeMap)
+- Voting System Using Map Variants
+- Shopping Cart System Using Map Variants
+- Banking System Using Map & Queue
+
+## Day 03 – Java Streams
+
+**Topics Covered:**  
+File Handling, Byte Streams, Character Streams, Buffered Streams,  
+Serialization, Data Streams, Piped Streams,  
+Performance Optimization, Exception Handling
+
+### Practice Programs (Implemented)
+- Read and Write a Text File (FileInputStream & FileOutputStream)
+- Efficient File Copy Using Buffered Streams (Performance Comparison)
+- Read User Input from Console and Write to File
+- Object Serialization & Deserialization (Employee Management)
+- Convert Image to Byte Array Using ByteArray Streams
+- Filter Streams: Convert Uppercase to Lowercase Text
+- Store & Retrieve Primitive Data Using Data Streams
+- Inter-Thread Communication Using Piped Streams
+- Read Large File Line by Line (Error Log Filter)
+- Word Frequency Counter with Top 5 Words
+
+## Day 04 – Exception Handling
+
+**Topics Covered:**  
+Checked Exceptions, Unchecked Exceptions, Custom Exceptions,  
+Multiple Catch Blocks, try-with-resources, throw vs throws,  
+finally Block, Exception Propagation
+
+### Practice Programs (Implemented)
+- Checked Exception Handling (File Read with IOException)
+- Unchecked Exceptions Handling (ArithmeticException & InputMismatchException)
+- Custom Exception Implementation (InvalidAgeException)
+- Multiple Catch Blocks (Array Operations)
+- try-with-resources for Auto-Closing Resources
+- throw vs throws (Exception Propagation Example)
+- finally Block Execution Demonstration
+- Exception Propagation Across Methods
+
+## Day 05 – Regex and JUnit
+
+**Topics Covered:**  
+Regex Basics, Pattern Matching, Validation, Extraction, String Replacement
+
+### Practice Programs (Implemented)
+
+#### Basic Regex Validation
+- Validate Username (letters, digits, underscore, length & start rule)
+- Validate License Plate Number
+- Validate Hex Color Code
+
+#### Extraction Using Regex
+- Extract Email Addresses from Text
+- Extract Capitalized Words from a Sentence
+- Extract Dates (dd/mm/yyyy Format)
+- Extract URLs from Text
+
+#### Replace & Modify Strings
+- Replace Multiple Spaces with a Single Space
+- Censor Bad Words in a Sentence
+- Validate IPv4 Address
+
+## Day 06 – Java Reflection and Annotation
+
+**Topics Covered:**  
+Java Reflection, Class Metadata, Dynamic Object Creation,  
+Private Member Access, Dynamic Method Invocation, Runtime Annotations,  
+Built-in Annotations, @Override, @Deprecated, @SuppressWarnings,  
+Custom Annotations, Repeatable Annotations, Reflection with Annotations
+
+### Practice Problems (Implemented)
+
+#### Reflection
+- Get Class Information (Methods, Fields, Constructors)
+- Access & Modify Private Field Using Reflection
+- Invoke Private Method Using Reflection
+- Dynamically Create Object Without new Keyword
+- Dynamic Method Invocation Based on User Input
+- Retrieve Custom Annotations at Runtime Using Reflection
+
+#### Annotation – Practice Exercises
+- Override Method Using @Override Annotation
+- Mark Old Method Using @Deprecated
+- Suppress Unchecked Warnings Using @SuppressWarnings
+- Create & Use Custom Annotation (@TaskInfo)
+- Retrieve Custom Annotation Data Using Reflection
+- Create @ImportantMethod Annotation with Default Value
+- Apply Custom Annotation to Multiple Methods
+- Create an Annotation for Logging Method Execution Time
+
+---
 
