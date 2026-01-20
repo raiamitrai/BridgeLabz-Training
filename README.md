@@ -7,6 +7,7 @@
 # Week 01 – Core Programming
 ## 🗓 Day 1 – Java Programming Elements
 **Topics Covered:** Java Comments, Java Basic Data Types, Java Variables, Arithmetic Operators, Operator Precedence, Type Conversion, Taking User Input in Programs  Practice Questions
+
   **Practice Questions**
 - Age Calculation
 - Average Marks (PCM)
