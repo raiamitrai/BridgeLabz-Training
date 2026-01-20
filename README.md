@@ -8,7 +8,7 @@
 ## 🗓 Day 1 – Java Programming Elements
 **Topics Covered:** Java Comments, Java Basic Data Types, Java Variables, Arithmetic Operators, Operator Precedence, Type Conversion, Taking User Input in Programs  Practice Questions
 
-  **Practice Questions**
+**Practice Questions**
 - Age Calculation
 - Average Marks (PCM)
 - Kilometers to Miles (Fixed Value)
@@ -28,41 +28,39 @@
 - Quotient and Remainder of Two Numbers
 - Integer Operations (Operator Precedence)
 - Double Operations (Operator Precedence)
-
-  
-🗓 Day 02 – Java Control Flows
-Topics Covered: Java Control Flow Statements, Java Boolean Data Type, Boolean Expressions, Logical Operators, If Statement, If–Else If–Else Statements, Java Loops (for, while), Break and Continue Statements, Switch Statement
-Level 1 Practice Programs
-•	Check if a Number is Divisible by 5
-•	Check if the First Number is the Smallest Among Three Numbers
-•	Check Which Number is the Largest Among Three Numbers
-•	Check Natural Number and Find Sum of N Natural Numbers
-•	Voting Eligibility Check (Age ≥ 18)
-•	Check Whether a Number is Positive, Negative, or Zero
-•	Spring Season Check (March 20 to June 20)
-•	Rocket Launch Countdown Using While Loop
-•	Rocket Launch Countdown Using For Loop
-•	Find Sum of Numbers Until User Enters 0
-•	Find Sum Until User Enters 0 or Negative Number (Using Break)
-•	Sum of N Natural Numbers Using While Loop and Formula Comparison
-•	Sum of N Natural Numbers Using For Loop and Formula Comparison
-•	Factorial of a Number Using While Loop
-•	Factorial of a Number Using For Loop
-Level 2 Practice Programs
-•	Print Odd and Even Numbers up to N
-•	Employee Bonus Calculation Based on Years of Service
-•	Multiplication Table of a Number (6 to 9)
-•	FizzBuzz Program Using For Loop
-•	FizzBuzz Program Using While Loop
-•	Find Youngest and Tallest Among Three Friends
-•	Find Factors of a Number Using For Loop
-•	Find Factors of a Number Using While Loop
-•	Find Greatest Factor of a Number (For Loop)
-•	Find Greatest Factor of a Number (While Loop)
-•	Find All Multiples of a Number Below 100 (For Loop)
-•	Find Power of a Number Using For Loop
-•	Find All Multiples of a Number Below 100 (While Loop)
-•	Find Power of a Number Using While Loop
+## 🗓 Day 02 – Java Control Flows
+**Topics Covered:** Java Control Flow Statements, Java Boolean Data Type, Boolean Expressions, Logical Operators, If Statement, If–Else If–Else Statements, Java Loops (for, while), Break and Continue Statements, Switch Statement
+### Level 1 Practice Programs
+- Check if a Number is Divisible by 5
+- Check if the First Number is the Smallest Among Three Numbers
+- Check Which Number is the Largest Among Three Numbers
+- Check Natural Number and Find Sum of N Natural Numbers
+- Voting Eligibility Check (Age ≥ 18)
+- Check Whether a Number is Positive, Negative, or Zero
+- Spring Season Check (March 20 to June 20)
+- Rocket Launch Countdown Using While Loop
+- Rocket Launch Countdown Using For Loop
+- Find Sum of Numbers Until User Enters 0
+- Find Sum Until User Enters 0 or Negative Number (Using Break)
+- Sum of N Natural Numbers Using While Loop and Formula Comparison
+- Sum of N Natural Numbers Using For Loop and Formula Comparison
+- Factorial of a Number Using While Loop
+- Factorial of a Number Using For Loop
+### Level 2 Practice Programs
+- Print Odd and Even Numbers up to N
+- Employee Bonus Calculation Based on Years of Service
+- Multiplication Table of a Number (6 to 9)
+- FizzBuzz Program Using For Loop
+- FizzBuzz Program Using While Loop
+- Find Youngest and Tallest Among Three Friends
+- Find Factors of a Number Using For Loop
+- Find Factors of a Number Using While Loop
+- Find Greatest Factor of a Number (For Loop)
+- Find Greatest Factor of a Number (While Loop)
+- Find All Multiples of a Number Below 100 (For Loop)
+- Find Power of a Number Using For Loop
+- Find All Multiples of a Number Below 100 (While Loop)
+- Find Power of a Number Using While Loop
 🗓 Day 03 – Java Arrays
 Topics Covered: Java Arrays, Creating an Array, Accessing an Array, Accessing Array Using for Loop, Modifying an Array, Using length Property of Array, Multi-Dimensional Arrays, 2D Array (Matrix), Accessing & Finding Size of Multi-Dimensional Array, Using System.err() Message and exit() Method
 Level 1 Practice Programs
