@@ -7,27 +7,28 @@
 # Week 01 – Core Programming
 ## 🗓 Day 1 – Java Programming Elements
 **Topics Covered:** Java Comments, Java Basic Data Types, Java Variables, Arithmetic Operators, Operator Precedence, Type Conversion, Taking User Input in Programs  Practice Questions
-  Practice Questions
-•	Age Calculation
-•	Average Marks (PCM)
-•	Kilometers to Miles (Fixed Value)
-•	Profit & Loss Calculation
-•	Pen Distribution
-•	Course Fee Discount (Fixed Values)
-•	Volume of Earth Calculation
-•	Kilometers to Miles (User Input)
-•	Course Fee Discount (User Input)
-•	Height Conversion (cm to feet & inches)
-•	Basic Calculator (Addition, Subtraction, Multiplication, Division)
-•	Area of Triangle (cm to sq cm & sq inch)
-•	Side of Square from Perimeter
-•	Feet to Yards & Miles Conversion
-•	Total Purchase Price Calculation
-•	Maximum Handshakes Among Students
-•	Quotient and Remainder of Two Numbers
-•	Integer Operations (Operator Precedence)
-•	Double Operations (Operator Precedence)
+  **Practice Questions**
+- Age Calculation
+- Average Marks (PCM)
+- Kilometers to Miles (Fixed Value)
+- Profit & Loss Calculation
+- Pen Distribution
+- Course Fee Discount (Fixed Values)
+- Volume of Earth Calculation
+- Kilometers to Miles (User Input)
+- Course Fee Discount (User Input)
+- Height Conversion (cm to feet & inches)
+- Basic Calculator (Addition, Subtraction, Multiplication, Division)
+- Area of Triangle (cm to sq cm & sq inch)
+- Side of Square from Perimeter
+- Feet to Yards & Miles Conversion
+- Total Purchase Price Calculation
+- Maximum Handshakes Among Students
+- Quotient and Remainder of Two Numbers
+- Integer Operations (Operator Precedence)
+- Double Operations (Operator Precedence)
 
+  
 🗓 Day 02 – Java Control Flows
 Topics Covered: Java Control Flow Statements, Java Boolean Data Type, Boolean Expressions, Logical Operators, If Statement, If–Else If–Else Statements, Java Loops (for, while), Break and Continue Statements, Switch Statement
 Level 1 Practice Programs
