@@ -60,95 +60,113 @@
 - Find Power of a Number Using For Loop
 - Find All Multiples of a Number Below 100 (While Loop)
 - Find Power of a Number Using While Loop
+
 ## Day 03 – Java Arrays
-Topics Covered: Java Arrays, Creating an Array, Accessing an Array, Accessing Array Using for Loop, Modifying an Array, Using length Property of Array, Multi-Dimensional Arrays, 2D Array (Matrix), Accessing & Finding Size of Multi-Dimensional Array, Using System.err() Message and exit() Method
-Level 1 Practice Programs
-•	Voting Eligibility Check for 10 Students Using Array
-•	Check Positive, Negative, Zero, Even & Odd (5 Numbers Array) + Compare First & Last Element
-•	Multiplication Table of a Number Using Array
-•	Store Numbers in Array Until 10 Elements / 0 / Negative & Find Sum
-•	Multiplication Table of a Number from 6 to 9 Using Array
-•	Mean Height of Football Team Players
-•	Store Odd and Even Numbers in Separate Arrays
-•	Find Factors of a Number and Store in Array
-•	Copy 2D Array into 1D Array
-•	FizzBuzz Using Array
- Level 2 Practice Programs
-•	Employee Bonus Calculation Using Arrays (Old Salary, Bonus, New Salary & Total)
-•	Find Youngest and Tallest Among Amar, Akbar & Anthony Using Arrays
-•	Store Digits of a Number in Array and Find Largest & Second Largest Digit
-•	Dynamic Array Expansion to Find Largest & Second Largest Digit
-•	Reverse a Number Using Array
-•	BMI Calculation Using Arrays (Height, Weight, BMI & Status)
-•	BMI Calculation Using Multi-Dimensional Array
-•	Student Marks, Percentage & Grade Calculation Using Arrays
-•	Student Marks, Percentage & Grade Using 2D Array
-•	Digit Frequency Count Using Array
-🗓 Day 04 – Java Methods
- Practice Programs (Implemented)
-•	Simple Interest Calculation Using Method
-•	Maximum Number of Handshakes Using Method 
-•	Check Whether a Number is Positive, Negative, or Zero Using Method
-•	Spring Season Check Using Method
-•	Sum of N Natural Numbers Using Method
-•	Find Smallest and Largest of Three Numbers Using Method
-•	Find Quotient and Remainder Using Method
-•	Chocolate Distribution Among Children Using Method
-•	Wind Chill Temperature Calculation Using Method
-•	Trigonometric Functions Calculation Using Math Class
-•	Unit Converter Utility Class Using Static Methods
-•	Leap Year Check Using Method
-•	Find Factors of a Number Using Method
-•	BMI Calculation Using Methods and Arrays
-🗓 Day 05 – Java Strings
- Practice Questions (Implemented)
-•	Compare Two Strings Using charAt()
-•	Compare Substrings Using charAt() and substring()
-•	Convert Text to Uppercase and Compare
-•	Convert Text to Lowercase and Compare
-•	Find String Length Without Using length()
-•	Split Text Into Words Without Using split()
-•	Store Words and Their Lengths in 2D Array
-•	Find Shortest and Longest Word in Text
-•	Count Vowels and Consonants in a String
-•	Identify Character Type (Vowel / Consonant)
-•	Demonstrate NullPointerException
-•	Demonstrate StringIndexOutOfBoundsException
-•	Demonstrate ArrayIndexOutOfBoundsException
-•	Demonstrate IllegalArgumentException
-•	Demonstrate NumberFormatException
-•	Rock Paper Scissors Game
- Week 01 – (Extra) Build-in-Function
- Practice Questions (Implemented)
-•	Basic Calculator (Addition, Subtraction, Multiplication, Division)
-•	Factorial of a Number Using Recursion
-•	Generate Fibonacci Sequence
-•	Calculate GCD and LCM of Two Numbers
-•	Find Maximum of Three Numbers
-•	Number Guessing Game
-•	Check Whether a Number is Palindrome
-•	Temperature Conversion (Celsius ↔ Fahrenheit)
-•	Check Whether a Number is Prime
- Week 01 – Extra (String Handling)
-Topics Covered: String Handling, Common String Functions, Method Parameters, Return Values
-Practice Questions (Implemented)
-•	Count Vowels and Consonants in a String
-•	Reverse a String Without Using Built-in Methods
-•	Check Whether a String is Palindrome
-•	Remove Duplicate Characters from a String
-•	Find the Longest Word in a Sentence
-•	Compare Two Strings Lexicographically Without Built-in Methods
-•	Find the Most Frequent Character in a String
-•	Remove a Specific Character from a String
-•	Toggle Case of Characters in a String
-Week 01 –  Scenario based question
-•	 The Coffee Counter Chronicles
-•	Maya’s BMI Fitness Tracker 
-Week 01 –  leetcode Question
-•	Reversed Integer
-•	Pelindrome
-•	Container with most water
-•	Two Sum
+
+**Topics Covered:** Java Arrays, Creating an Array, Accessing an Array, Accessing Array Using for Loop, Modifying an Array, Using length Property of Array, Multi-Dimensional Arrays, 2D Array (Matrix), Accessing & Finding Size of Multi-Dimensional Array, Using System.err() Message and exit() Method
+
+### Level 1 Practice Programs
+- Voting Eligibility Check for 10 Students Using Array
+- Check Positive, Negative, Zero, Even & Odd (5 Numbers Array) + Compare First & Last Element
+- Multiplication Table of a Number Using Array
+- Store Numbers in Array Until 10 Elements / 0 / Negative & Find Sum
+- Multiplication Table of a Number from 6 to 9 Using Array
+- Mean Height of Football Team Players
+- Store Odd and Even Numbers in Separate Arrays
+- Find Factors of a Number and Store in Array
+- Copy 2D Array into 1D Array
+- FizzBuzz Using Array
+
+### Level 2 Practice Programs
+- Employee Bonus Calculation Using Arrays (Old Salary, Bonus, New Salary & Total)
+- Find Youngest and Tallest Among Amar, Akbar & Anthony Using Arrays
+- Store Digits of a Number in Array and Find Largest & Second Largest Digit
+- Dynamic Array Expansion to Find Largest & Second Largest Digit
+- Reverse a Number Using Array
+- BMI Calculation Using Arrays (Height, Weight, BMI & Status)
+- BMI Calculation Using Multi-Dimensional Array
+- Student Marks, Percentage & Grade Calculation Using Arrays
+- Student Marks, Percentage & Grade Using 2D Array
+- Digit Frequency Count Using Array
+
+## Day 04 – Java Methods
+
+### Practice Programs (Implemented)
+- Simple Interest Calculation Using Method
+- Maximum Number of Handshakes Using Method
+- Check Whether a Number is Positive, Negative, or Zero Using Method
+- Spring Season Check Using Method
+- Sum of N Natural Numbers Using Method
+- Find Smallest and Largest of Three Numbers Using Method
+- Find Quotient and Remainder Using Method
+- Chocolate Distribution Among Children Using Method
+- Wind Chill Temperature Calculation Using Method
+- Trigonometric Functions Calculation Using Math Class
+- Unit Converter Utility Class Using Static Methods
+- Leap Year Check Using Method
+- Find Factors of a Number Using Method
+- BMI Calculation Using Methods and Arrays
+
+## Day 05 – Java Strings
+
+### Practice Questions (Implemented)
+- Compare Two Strings Using charAt()
+- Compare Substrings Using charAt() and substring()
+- Convert Text to Uppercase and Compare
+- Convert Text to Lowercase and Compare
+- Find String Length Without Using length()
+- Split Text Into Words Without Using split()
+- Store Words and Their Lengths in 2D Array
+- Find Shortest and Longest Word in Text
+- Count Vowels and Consonants in a String
+- Identify Character Type (Vowel / Consonant)
+- Demonstrate NullPointerException
+- Demonstrate StringIndexOutOfBoundsException
+- Demonstrate ArrayIndexOutOfBoundsException
+- Demonstrate IllegalArgumentException
+- Demonstrate NumberFormatException
+- Rock Paper Scissors Game
+
+## Week 01 – (Extra) Built-in Functions
+
+### Practice Questions (Implemented)
+- Basic Calculator (Addition, Subtraction, Multiplication, Division)
+- Factorial of a Number Using Recursion
+- Generate Fibonacci Sequence
+- Calculate GCD and LCM of Two Numbers
+- Find Maximum of Three Numbers
+- Number Guessing Game
+- Check Whether a Number is Palindrome
+- Temperature Conversion (Celsius ↔ Fahrenheit)
+- Check Whether a Number is Prime
+
+## Week 01 – Extra (String Handling)
+
+**Topics Covered:** String Handling, Common String Functions, Method Parameters, Return Values
+
+### Practice Questions (Implemented)
+- Count Vowels and Consonants in a String
+- Reverse a String Without Using Built-in Methods
+- Check Whether a String is Palindrome
+- Remove Duplicate Characters from a String
+- Find the Longest Word in a Sentence
+- Compare Two Strings Lexicographically Without Built-in Methods
+- Find the Most Frequent Character in a String
+- Remove a Specific Character from a String
+- Toggle Case of Characters in a String
+
+## Week 01 – Scenario Based Questions
+- The Coffee Counter Chronicles
+- Maya’s BMI Fitness Tracker
+
+## Week 01 – LeetCode Questions
+- Reverse Integer
+- Palindrome
+- Container With Most Water
+- Two Sum
+
+---
+
 Week 02 –  Object-Oriented Programming
 Day 01 – Class and object
 Topics Covered: Classes, Objects, Attributes, Constructors, Methods, Real-World Modeling
