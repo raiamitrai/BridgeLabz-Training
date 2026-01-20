@@ -250,8 +250,6 @@ Polymorphism, Dynamic Method Dispatch, Real-World System Design
 
 # Week 03 – Data Structure & Algorithms
 
----
-
 ## Day 01 – Linked List Data Structures
 
 **Topics Covered:**  
