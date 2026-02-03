@@ -1,19 +1,64 @@
-/*The City Council wants to launch a Smart City Transport & Service Management System that
-integrates buses, metros, taxis, and EV charging stations. The goal is to optimize routes,
-manage schedules, process passenger data, and provide real-time dashboards. The solution
-must use Java 8 features to be modern, clean, and extensible. */
+package workshop.smart_city_transport;
 
-package practice.interfacevsabstract.smartcity;
+import java.util.*;
 
-public class Main { 
+public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Smart City Management System");
-        
+
+        List<TransportService> services = new ArrayList<>();
+
+        services.add(new BusService());
+        services.add(new MetroService());
+        services.add(new TaxiService());
+        services.add(new AmbulanceService());
+        services.add(new FireService());
+
+
+        System.out.println(" All Transport Services (Dashboard):");
+        services.forEach(TransportService::printServiceDetails);
+
+
+        // Filter
+        services.stream()
+                .filter(s -> s.getTravelCost() <= 50)
+                .forEach(TransportService::printServiceDetails);
+
+        // Sort
+        services.stream()
+                .sorted(Comparator.comparing(TransportService::getDepartureTime))
+                .forEach(TransportService::printServiceDetails);
+
+        //emergency
+        System.out.println("\n Emergency Priority Services:");
+
+        services.stream()
+                .filter(s -> s instanceof EmergencyService)
+                .forEach(s ->
+                        System.out.println(s.getTransportName() + " gets priority"));
+
+        // travel cast calculate
+        TravelCostCalculator calculator = (baseFare, isPeak) -> {
+            if (isPeak) {
+                return baseFare + (baseFare * 20 / 100); // 20% extra
+            }
+            return baseFare;
+        };
+
+        System.out.println("\n Final Fare (Peak / Non-Peak):");
+
+        services.forEach(service -> {
+            boolean peak = isPeak(service.getDepartureTime());
+            int finalFare = calculator.calculate(
+                    service.getTravelCost(), peak);
+
+            System.out.println(
+                    service.getTransportName() +
+                            " | Final Fare: ₹" + finalFare
+            );
+        });
+c
+
+
     }
-
 }
-
-class passenger{
-
-}
-
